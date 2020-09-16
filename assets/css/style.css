@@ -963,7 +963,17 @@ section {
   letter-spacing: 1px;
   color: #005bcc;
 }
-
+@media (max-width: 768px) {
+  .contact .contact-about h3 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #005bcc;
+  }
+}
 .contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
